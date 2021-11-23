@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BD Springboard 13.1 Movies App</title>
+</head>
+<body>
+    <form id="addMovieForm">
+        <label>Movie Title</label>
+        <input id="title" placeholder="Enter a Movie Title">
+        <label>Movie Rating</label>
+        <input id="rating" type="number" min="1" max="5" step="1">
+        <input id="addMovieButton" type="button" value="Submit">
+    </form>
+    <div id="movies-container">
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js" integrity="sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI=" crossorigin="anonymous"></script>
+    <script src="movies.js"></script>
+</body>
+</html>
