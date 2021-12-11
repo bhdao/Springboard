@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Giphy Party!</title>
+    <link rel="stylesheet" href="app.css" type="text/css" />
+  </head>
+
+  <body>
+    <h1>Giphy Party!<span id="headerEmoji">🎉</span></h1>
+    <form id="gifForm">
+      <div>
+        <label>Number of guests to invite (Max 4 per invite!): </label>
+        <input id="numGuests" type="number" max="4" min="1" step="1" />
+      </div>
+      <br />
+      <input id="gifSearchTerm" type="text" placeholder="Search for a gif" />
+      <button id="searchBtn">Search</button>
+      <button id="resetBtn">Clear</button>
+    </form>
+    <br />
+    <h3 id="welcomeMessage">Search for a gif term to start the party! 🎈</h3>
+    <div id="gifOutput"></div>
+    <!-- <img src="https://media1.giphy.com/media/cZ7rmKfFYOvYI/100w.gif" />
+    <img
+      src="https://media3.giphy.com/media/SXIRgkgqjsRdqydcGD/200.gif?cid=8205dcb5af589e96de09239934b386d1f53ecdba2ae3f0be&rid=200.gif&ct=g"
+    /> -->
+    <script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <script src="https://unpkg.com/axios/dist/axios.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
