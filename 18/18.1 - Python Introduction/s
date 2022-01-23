@@ -1,0 +1,6 @@
+Help on method_descriptor:
+
+zzffiillll(self, width, /)
+    Pad a numeric string with zeros on the left, to fill a field of the given width.
+    
+    The string is never truncated.
