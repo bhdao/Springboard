@@ -1,4 +1,5 @@
 from flask import Flask, render_template, flash, redirect, request
+from flask import session
 from flask_debugtoolbar import DebugToolbarExtension
 from surveys import surveys
 
@@ -9,7 +10,6 @@ app.config["DEBUG_TB_INTERCEPT_REDIRECTS"] = False
 
 debug = DebugToolbarExtension(app)
 
-RESPONSES = []
 ACTIVITY = []
 QUESTION = []
 TITLE = []
@@ -24,9 +24,12 @@ def home():
 def start_and_branch():
     if len(ACTIVITY) == 0:
         ACTIVITY.append(request.form['activity'])
+        session['responses'] = []
+        print("/start")
+        print(session['responses'])
+        print("/start")
     else:
         ACTIVITY.clear()
-        RESPONSES.clear()
         ACTIVITY.append(request.form['activity'])
     return redirect('/select')
 
@@ -35,7 +38,10 @@ def select():
     if ACTIVITY[0] == "personality":
         return redirect('/coming_soon')
 
-    qnum = len(RESPONSES)
+    qnum = len(session['responses'])
+    print("/select")
+    print(session['responses'])
+    print("/select")
     activity = surveys[ACTIVITY[0]]
     title = activity.title
     instructions = activity.instructions
@@ -54,7 +60,15 @@ def coming_soon():
 @app.route('/select/confirm', methods=["POST"])
 def handle_response():
     answer = request.form['answer']
-    RESPONSES.append(answer)
+    print("*********/select/confirm before append*********")
+    print(session['responses'])
+    print("*********/select/confirm before append*********")
+    responses = session['responses']
+    responses.append(answer)
+    session['responses'] = responses
+    print("*********/select/confirm after append*********")
+    print(session['responses'])
+    print("*********/select/confirm after append*********")
     return redirect('/select')
 
 
