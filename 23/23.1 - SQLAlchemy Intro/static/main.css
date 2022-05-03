@@ -1,0 +1,73 @@
+.user,
+.user > * {
+  display: flex;
+}
+
+.user {
+  background-color: rgb(255, 255, 255);
+  border-radius: 30px;
+  padding: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  border: 5px solid gray;
+}
+
+.user > .info {
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+.info h2 {
+  margin: 0;
+  margin-left: 20px;
+}
+
+.user .pic {
+  height: 65px;
+  width: 65px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+
+img {
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+
+li {
+  text-align: left;
+}
+
+button {
+  padding: 10px;
+  font-weight: bold;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.blue {
+  background-color: rgb(0, 106, 255);
+  color: white;
+}
+
+.red {
+  background-color: rgb(255, 75, 75);
+  color: white;
+}
+
+.button-container {
+  justify-content: space-between;
+}

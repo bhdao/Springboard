@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{%block title%}{{title}}{%endblock%}</title>
+  <link type="text/css" rel="stylesheet" href="{{url_for('static', filename = 'main.css')}}">
+</head>
+
+<body>
+  <nav>
+    <a href="/">Home</a>
+    <a href="/users/add">Add User</a>
+  </nav>
+  <h1>{{title}}</h1>
+  {%block body%}
+  <!--List users-->
+  <h2>
+    Current Registered Users:
+  </h2>
+  <ol>
+    {% for user in users %}
+    <li>
+      <a name="userid" href="users/{{user.id}}">{{user.first_name}} {{user.last_name}}</a>
+    </li>
+    {% endfor %}
+  </ol>
+  <!--End list users-->
+
+  <a href="users/add">
+    <button>Add New User</button>
+  </a>
+  <br>
+  {%endblock%}
+
+  <footer>
+    This is the footer!
+  </footer>
+</body>
+
+</html>

@@ -1,0 +1,16 @@
+{% extends "list.html" %}
+
+{% block body %}
+  <form action="/" method="POST">
+    <label for="userFirst">First Name</label>
+    <input id="userFirst" name="first_name" placeholder="Enter a first name" />
+    <br>
+    <label for="userLast">Last Name</label>
+    <input id="userLast" name="last_name" placeholder="Enter a last name" />
+    <br>
+    <label for="userPic">Profile Picture Link</label>
+    <input id="userPic" name="profile_pic" placeholder="Profile Picture URL" />
+    <br>
+    <input type="submit" />
+  </form>
+{%endblock%}

@@ -1,0 +1,43 @@
+{% extends "list.html" %}
+{%block title%}{%endblock%}
+{% block body %}
+  <div class="user container">
+    <div class="pic">
+      <img src="{{user.image_url}}"/>
+    </div>
+    <div class="info">
+        <h2>{{user.first_name}} {{user.last_name}}</h2>
+    </div>
+  </div>
+  <br>
+  <div class="button-container">
+    <a id="deleteUser">
+      <button class="red">Delete User</button>
+    </a>
+    <a  href="/users/{{user.id}}/edit">
+      <button class="blue">Edit User</button>
+    </a>
+  </div>
+
+  <script type="text/javascript" defer>
+    console.log("Hello world!")
+    const deleteBtn = document.querySelector("#deleteUser");
+    console.log(deleteBtn);
+    let delCount = 3;
+    deleteBtn.addEventListener('click', () => {
+      if (delCount < 1) {
+        deleteBtn.href="/users/{{user.id}}/delete"
+      };
+      deleteBtn.children[0].textContent = `Delete? ${delCount}`
+      delCount--;
+    });
+    deleteBtn.addEventListener('mouseleave', () => {
+      delCount = 3;
+      deleteBtn.children[0].textContent = "Delete User";
+      deleteBtn.href = '';
+    }); 
+  </script>
+  {%endblock%}
+  <!-- deleteBtn.addEventListener('mouseover', () => {
+    deleteBtn.textContent = "Confirm?"  
+  });
