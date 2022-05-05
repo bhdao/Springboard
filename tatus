@@ -1,0 +1,178 @@
+[33mcommit 5428cb1eb07ad9ce0733a5c518e247f4badf98d8[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m)[m
+Author: brendandao-admin <onthedaolow@gmail.com>
+Date:   Mon May 2 20:03:15 2022 -0700
+
+    Added section 23 folder and 23.1 exercise
+
+[33mcommit c74963cffc00320f19e4c1c1f694ec4ce22bf66f[m[33m ([m[1;31morigin/main[m[33m)[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sat Apr 23 18:57:01 2022 -0700
+
+    Added section 22.4 and exercises
+
+[33mcommit 0094e349ee064c46850e3a6e50abebe7de022065[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sun Apr 17 23:51:33 2022 -0700
+
+    Added 22.3 folder and exercise
+
+[33mcommit 49a1c45ccce2b5f24218b618ee9c47b4984beb1c[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Apr 7 22:28:01 2022 -0700
+
+    Added Section 22.2
+
+[33mcommit f222307c0b6dd61a02df298ee7ef4cecc2285511[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Tue Feb 15 21:12:36 2022 -0800
+
+    Modified 19.3 exercise to use session for user answer storage.
+
+[33mcommit 3d10a79c06bc72d5cc9d41ec798ba0a3317442b7[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sun Feb 13 21:52:26 2022 -0800
+
+    Added 19.2 and 19.3 exercises
+
+[33mcommit 7ca32b39db925d7ce13524a2d12d38ba407482e5[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Jan 27 15:50:56 2022 -0800
+
+    Added 18.4 - Python OOP
+
+[33mcommit 2619a6d98cc77bae225d2f200586a73b14c60f7e[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sun Jan 23 09:20:20 2022 -0800
+
+    Added 18.2 - Python Fundamentals
+
+[33mcommit 4533e2345ff12520b1af9f3e62adc84add1e0852[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Tue Jan 4 15:30:15 2022 -0800
+
+    Added 18.1 exercises
+
+[33mcommit 217754f1dcc2e6de08ab3debe5127a1c8b3d8f79[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Fri Dec 10 18:30:05 2021 -0800
+
+    Added 14.3.14 - Giphy API exercise
+
+[33mcommit f0ed2080e42fb1edf3c934e686793f87e6732d94[m
+Merge: ac874fb ee55b70
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Dec 2 20:31:20 2021 -0800
+
+    Merge branch 'main' of https://github.com/bhdao/Springboard into main
+
+[33mcommit ac874fbe89258bd74a160e99b2112092cc95eb53[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Dec 2 20:30:50 2021 -0800
+
+    Added 14/14.1 How the Web Works Exercise
+
+[33mcommit ee55b70f9727b32d093493684571063a128921da[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Mon Nov 22 23:00:10 2021 -0800
+
+    Added 13.1 jquery and movies exercises
+
+[33mcommit 3e6eb83c3ba87acd95afa4e80a1174afe40fe902[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Mon Nov 22 20:06:05 2021 -0800
+
+    Added 12.2 this exercise
+
+[33mcommit 12c13151358a9a282285abce1ccea7d62e4a34b4[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sun Nov 21 22:15:47 2021 -0800
+
+    Added 12.1 ES2015 Classes exercises
+
+[33mcommit 1b29ab3a26d6df3129e159a8fde1053d3e3c24b9[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sun Nov 21 01:37:20 2021 -0800
+
+    Added 10.7 Maps and Sets exercise
+
+[33mcommit 989ec21e1c62c1b22c6774c72b43ed50129ac65e[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sat Nov 13 21:13:27 2021 -0800
+
+    Added 10.6 Destructuring exercise
+
+[33mcommit d648dc6cc05c337674580c17ae8c9a1cf0eb0283[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Fri Nov 12 22:49:51 2021 -0800
+
+    Added 10.5 Object Enhancements exercise
+
+[33mcommit 0ee88e43997e3b974bffccabbb7f29b9926ef30f[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Fri Nov 12 21:33:00 2021 -0800
+
+    Added 10.4 Rest and Spread Exercises
+
+[33mcommit 62ce95d792387c767e792ade8f7f550e12393f5e[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Nov 11 20:58:09 2021 -0800
+
+    Added 10.3 Arrow Functions exercise
+
+[33mcommit 3ee932ee948c5280c3786a3bed311051703920d9[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Thu Nov 11 20:12:12 2021 -0800
+
+    Added 10/10.2 let and const exercise
+
+[33mcommit f86f53d770cad1b5000da8772cd439573b12b3a0[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Mon Nov 8 19:41:56 2021 -0800
+
+    Add 8.3.4 - reduce exercise
+
+[33mcommit c9dc419cd96bf109e960e7a8fa0d46bc6e1e55b9[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Sat Nov 6 21:35:56 2021 -0700
+
+    added 8.2.8 - find and findIndex
+
+[33mcommit daacb80e867b7a6d789d1356b23a5f2de97d9bb8[m[33m ([m[1;31morigin/master[m[33m)[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Fri Nov 5 22:05:00 2021 -0700
+
+    Add 8.2.3 folder and completed exercise.
+
+[33mcommit 4df2118185dfe471bd9a8c2a1c4a8a62cd16e199[m
+Author: brendan <onthedaolow@gmail.com>
+Date:   Fri Nov 5 16:47:56 2021 -0700
+
+    Add section 8 folder and 8.1.12 Exercise.
+
+[33mcommit 40220fe2f9e4cf36d7bfc81ec45ef3a78f6b2bc5[m
+Author: bhdao <65045544+bhdao@users.noreply.github.com>
+Date:   Mon Oct 4 20:07:27 2021 -0700
+
+    Delete index.html
+    
+    Moved to folder instead
+
+[33mcommit 752fc7d0dec114f6c55a0e2a4e01651b7f741322[m
+Author: bhdao <65045544+bhdao@users.noreply.github.com>
+Date:   Mon Oct 4 20:07:17 2021 -0700
+
+    Delete app.js
+    
+    Moved to folder instead
+
+[33mcommit 65b0be5ef9929b1b6f748c28ebb636d6ebd3c003[m
+Author: bhdao <65045544+bhdao@users.noreply.github.com>
+Date:   Mon Oct 4 19:57:16 2021 -0700
+
+    Add files via upload
+
+[33mcommit 3e3703587a7584eb48610f0071defb1271151c4f[m
+Author: bhdao <65045544+bhdao@users.noreply.github.com>
+Date:   Mon Oct 4 19:55:21 2021 -0700
+
+    Timers Exercise 3.3.9

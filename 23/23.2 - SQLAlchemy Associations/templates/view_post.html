@@ -1,21 +1,16 @@
 {% extends "list.html" %}
 {%block title%}{%endblock%}
 {% block body %}
-  <div class="user container">
-    <div class="pic">
-      <img src="{{user.image_url}}"/>
-    </div>
-    <div class="info">
-        <h2>{{user.first_name}} {{user.last_name}}</h2>
-    </div>
-  </div>
+  <h2>{{post.title}}</h2>
+  <p>{{post.content}}</p>
   <br>
+  <p>by <a href="/users/{{post.user.id}}">{{post.user.first_name}} {{post.user.last_name}}</a></p>
   <div class="button-container">
     <a id="deleteUser">
-      <button class="red">Delete User</button>
+      <button class="red">Delete Post</button>
     </a>
-    <a  href="/users/{{user.id}}/edit">
-      <button class="blue">Edit User</button>
+    <a  href="/posts/{{post.id}}/edit">
+      <button class="blue">Edit Post</button>
     </a>
   </div>
 
@@ -26,14 +21,14 @@
     let delCount = 3;
     deleteBtn.addEventListener('click', () => {
       if (delCount < 1) {
-        deleteBtn.href="/users/{{user.id}}/delete"
+        deleteBtn.href="/posts/{{post.id}}/delete"
       };
       deleteBtn.children[0].textContent = `Delete? ${delCount}`
       delCount--;
     });
     deleteBtn.addEventListener('mouseleave', () => {
       delCount = 3;
-      deleteBtn.children[0].textContent = "Delete User";
+      deleteBtn.children[0].textContent = "Delete Post";
       deleteBtn.href = '';
     }); 
   </script>
